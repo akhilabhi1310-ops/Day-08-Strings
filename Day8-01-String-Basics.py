@@ -1,0 +1,13 @@
+print("STRING BASICS")
+name = "Akhil"
+print(name)
+print(type(name))
+print("\nACCESSING CHARACTERS")
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[-1])
+print("\nLENGTH")
+print(len(name))
+print("\n------------------------")
+input("Please Click Enter to Exit...")

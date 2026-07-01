@@ -1,0 +1,18 @@
+print("STRING SLICING")
+text = "Python Programming"
+print(text)
+print("\nFirst 6 Characters")
+print(text[:6])
+print("\nFrom Index 7")
+print(text[7:])
+print("\nMiddle Part")
+print(text[3:10])
+print("\nLast 5 Characters")
+print(text[-5:])
+print("\nReverse String")
+print(text[::-1])
+print("\nEvery Second Character")
+print(text[::2])
+print("\n------------------------")
+input("Please Click Enter to Exit...")
+

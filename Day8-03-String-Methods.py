@@ -1,0 +1,23 @@
+print("STRING METHODS")
+text = " python programming "
+print("Original:", text)
+print("Upper:", text.upper())
+print("Lower:", text.lower())
+print("Title:", text.title())
+print("Capitalize:", text.capitalize())
+print("Swapcase:", text.swapcase())
+print("Strip:", text.strip())
+print("Replace:", text.replace("python", "Java"))
+print("Find:", text.find("programming"))
+print("Count:", text.count("m"))
+print("Startswith:", text.strip().startswith("python"))
+print("Endswith:", text.strip().endswith("ing"))
+print("Split:", text.split())
+languages = ["Python", "Java", "C"]
+print("Join:", ", ".join(languages))
+print("Is Alpha:", "Python".isalpha())
+print("Is Digit:", "12345".isdigit())
+print("Is Alnum:", "Python123".isalnum())
+print("\n------------------------")
+input("Please Click Enter to Exit...")
+
